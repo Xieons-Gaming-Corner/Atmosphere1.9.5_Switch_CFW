@@ -1,9 +1,9 @@
 ### Updated by XGC
-This repository is essentially an exact mirror of the official source atmosphere repository. 
+This repository is essentially an exact mirror of the official source Atmosphere repository. 
 > * Added Custom Workflow files to ``/.guthub/``
 ======
 # The latest release can be found [here](https://github.com/Xieons-Gaming-Corner/Atmosphere1.9.2_SwitchFWSupport_20.2.0/releases/tag/Atmosphere1.9.2_SwitchFWS_20.2.0) 
-- This is a mirror of the official release that includes the latest ``fusee.bin`` as well as the atmosphere directory for the root you SD card. I've additionally included a ZIP of the TegraRCM GUI to inject Fusee.bin into atmosphere
+- This is a mirror of the official release that includes the latest ``fusee.bin`` as well as the atmosphere directory for the root you SD card. I've additionally included a ZIP of the TegraRCM GUI to inject Fusee.bin into Atmosphere
    
 =====
 =====
@@ -23,7 +23,7 @@ Atmosphère consists of multiple components, each of which replaces/modifies a d
 
 * Fusée: First-stage Loader, responsible for loading and validating stage 2 (custom TrustZone) plus package2 (Kernel/FIRM sysmodules), and patching them as needed. This replaces all functionality normally in Package1loader/NX Bootloader.
 * Exosphère: Customized TrustZone, to run a customized Secure Monitor
-* Thermosphère: EL2 EmuNAND support, i.e. backing up and using virtualized/redirected NAND images
+* Thermosphère: EL2 EmuNAND support, i.e., backing up and using virtualized/redirected NAND images
 * Stratosphère: Custom Sysmodule(s), both Rosalina style to extend the kernel/provide new features, and of the loader reimplementation style to hook important system actions
 * Troposphère: Application-level Horizon OS patches, used to implement desirable CFW features
 
